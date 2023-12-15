@@ -1,0 +1,287 @@
+Row 9: THE MAURITIUS COMMERCIAL BANK LTD            AUSTRALIA
+Unnamed: 1                           Australia Dollars
+Unnamed: 2                                         AUD
+Unnamed: 3                                           1
+Unnamed: 4                                       28.75
+Unnamed: 5                                           0
+Unnamed: 6                                       28.41
+Unnamed: 7                                       30.16
+Unnamed: 8                                           0
+Unnamed: 9                                       30.16
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 8, dtype: objectRow 10: THE MAURITIUS COMMERCIAL BANK LTD               CANADA
+Unnamed: 1                             Canadian Dollar
+Unnamed: 2                                         CAD
+Unnamed: 3                                           1
+Unnamed: 4                                       32.02
+Unnamed: 5                                       31.92
+Unnamed: 6                                       31.54
+Unnamed: 7                                       33.59
+Unnamed: 8                                       33.59
+Unnamed: 9                                       33.59
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 9, dtype: objectRow 11: THE MAURITIUS COMMERCIAL BANK LTD                  CHINA
+Unnamed: 1                           China Yuan Renminbi
+Unnamed: 2                                           CNY
+Unnamed: 3                                             1
+Unnamed: 4                                          6.06
+Unnamed: 5                                             0
+Unnamed: 6                                             0
+Unnamed: 7                                          6.37
+Unnamed: 8                                          6.37
+Unnamed: 9                                             0
+Unnamed: 10                            12-Dec-2023 09:15
+Name: 10, dtype: objectRow 12: THE MAURITIUS COMMERCIAL BANK LTD        EUR COUNTRIES
+Unnamed: 1                                        Euro
+Unnamed: 2                                         EUR
+Unnamed: 3                                           1
+Unnamed: 4                                       46.99
+Unnamed: 5                                       46.87
+Unnamed: 6                                       46.54
+Unnamed: 7                                        48.4
+Unnamed: 8                                        48.4
+Unnamed: 9                                        48.4
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 11, dtype: objectRow 13: THE MAURITIUS COMMERCIAL BANK LTD          GREAT BRITAIN
+Unnamed: 1                           Great Britain Pound
+Unnamed: 2                                           GBP
+Unnamed: 3                                             1
+Unnamed: 4                                         54.86
+Unnamed: 5                                         54.72
+Unnamed: 6                                        54.337
+Unnamed: 7                                         56.51
+Unnamed: 8                                         56.51
+Unnamed: 9                                         56.51
+Unnamed: 10                            12-Dec-2023 09:15
+Name: 12, dtype: objectRow 14: THE MAURITIUS COMMERCIAL BANK LTD            HONG KONG
+Unnamed: 1                            Hong Kong Dollar
+Unnamed: 2                                         HKD
+Unnamed: 3                                           1
+Unnamed: 4                                        5.53
+Unnamed: 5                                         5.5
+Unnamed: 6                                        5.38
+Unnamed: 7                                        5.85
+Unnamed: 8                                        5.85
+Unnamed: 9                                        5.85
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 13, dtype: objectRow 15: THE MAURITIUS COMMERCIAL BANK LTD                INDIA
+Unnamed: 1                                 India Rupee
+Unnamed: 2                                         INR
+Unnamed: 3                                           1
+Unnamed: 4                                      0.5163
+Unnamed: 5                                      0.5086
+Unnamed: 6                                           0
+Unnamed: 7                                      0.5493
+Unnamed: 8                                      0.5493
+Unnamed: 9                                           0
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 14, dtype: objectRow 16: THE MAURITIUS COMMERCIAL BANK LTD                JAPAN
+Unnamed: 1                                   Japan Yen
+Unnamed: 2                                         JPY
+Unnamed: 3                                         100
+Unnamed: 4                                       29.82
+Unnamed: 5                                       29.67
+Unnamed: 6                                       29.07
+Unnamed: 7                                        31.4
+Unnamed: 8                                        31.4
+Unnamed: 9                                        31.4
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 15, dtype: objectRow 17: THE MAURITIUS COMMERCIAL BANK LTD                KENYA
+Unnamed: 1                              Kenya Shilling
+Unnamed: 2                                         KES
+Unnamed: 3                                         100
+Unnamed: 4                                       28.47
+Unnamed: 5                                       28.27
+Unnamed: 6                                           0
+Unnamed: 7                                       29.67
+Unnamed: 8                                       29.67
+Unnamed: 9                                           0
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 16, dtype: objectRow 18: THE MAURITIUS COMMERCIAL BANK LTD           MADAGASCAR
+Unnamed: 1                             Malagasy Ariary
+Unnamed: 2                                         MGA
+Unnamed: 3                                         100
+Unnamed: 4                                        0.98
+Unnamed: 5                                        0.97
+Unnamed: 6                                           0
+Unnamed: 7                                        1.03
+Unnamed: 8                                        1.03
+Unnamed: 9                                           0
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 17, dtype: objectRow 19: THE MAURITIUS COMMERCIAL BANK LTD                         NEW ZEALAND
+Unnamed: 1                           Cook Islands New Zealand Dollars
+Unnamed: 2                                                        NZD
+Unnamed: 3                                                          1
+Unnamed: 4                                                      26.68
+Unnamed: 5                                                      26.48
+Unnamed: 6                                                      26.21
+Unnamed: 7                                                      27.93
+Unnamed: 8                                                      27.93
+Unnamed: 9                                                      27.93
+Unnamed: 10                                         12-Dec-2023 09:15
+Name: 18, dtype: objectRow 20: THE MAURITIUS COMMERCIAL BANK LTD                         NORWAY
+Unnamed: 1                           Bouvet Island Norway Kroner
+Unnamed: 2                                                   NOK
+Unnamed: 3                                                     1
+Unnamed: 4                                                  3.91
+Unnamed: 5                                                  3.88
+Unnamed: 6                                                   3.8
+Unnamed: 7                                                  4.13
+Unnamed: 8                                                  4.13
+Unnamed: 9                                                  4.13
+Unnamed: 10                                    12-Dec-2023 09:15
+Name: 19, dtype: objectRow 21: THE MAURITIUS COMMERCIAL BANK LTD             PAKISTAN
+Unnamed: 1                             Pakistan Rupees
+Unnamed: 2                                         PKR
+Unnamed: 3                                         100
+Unnamed: 4                                       15.27
+Unnamed: 5                                       15.16
+Unnamed: 6                                           0
+Unnamed: 7                                       16.16
+Unnamed: 8                                       16.16
+Unnamed: 9                                           0
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 20, dtype: objectRow 22: THE MAURITIUS COMMERCIAL BANK LTD           SAUDI ARABIA
+Unnamed: 1                           Saudi Arabia Riyals
+Unnamed: 2                                           SAR
+Unnamed: 3                                             1
+Unnamed: 4                                         11.57
+Unnamed: 5                                         11.47
+Unnamed: 6                                         11.28
+Unnamed: 7                                         12.24
+Unnamed: 8                                         12.24
+Unnamed: 9                                         12.24
+Unnamed: 10                            12-Dec-2023 09:15
+Name: 21, dtype: objectRow 23: THE MAURITIUS COMMERCIAL BANK LTD           SEYCHELLES
+Unnamed: 1                           Seychelles Rupees
+Unnamed: 2                                         SCR
+Unnamed: 3                                           1
+Unnamed: 4                                        3.08
+Unnamed: 5                                           0
+Unnamed: 6                                        2.83
+Unnamed: 7                                        3.37
+Unnamed: 8                                        3.37
+Unnamed: 9                                        3.37
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 22, dtype: objectRow 24: THE MAURITIUS COMMERCIAL BANK LTD            SINGAPORE
+Unnamed: 1                           Singapore Dollars
+Unnamed: 2                                         SGD
+Unnamed: 3                                           1
+Unnamed: 4                                       32.17
+Unnamed: 5                                       32.01
+Unnamed: 6                                       31.93
+Unnamed: 7                                       33.88
+Unnamed: 8                                       33.88
+Unnamed: 9                                       33.88
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 23, dtype: objectRow 25: THE MAURITIUS COMMERCIAL BANK LTD         SOUTH AFRICA
+Unnamed: 1                           South Africa Rand
+Unnamed: 2                                         ZAR
+Unnamed: 3                                           1
+Unnamed: 4                                        2.28
+Unnamed: 5                                        2.26
+Unnamed: 6                                        2.23
+Unnamed: 7                                        2.43
+Unnamed: 8                                        2.43
+Unnamed: 9                                        2.43
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 24, dtype: objectRow 26: THE MAURITIUS COMMERCIAL BANK LTD            SRI LANKA
+Unnamed: 1                             Sri Lanka Rupee
+Unnamed: 2                                         LKR
+Unnamed: 3                                         100
+Unnamed: 4                                       13.28
+Unnamed: 5                                       13.17
+Unnamed: 6                                           0
+Unnamed: 7                                        13.9
+Unnamed: 8                                        13.9
+Unnamed: 9                                           0
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 25, dtype: objectRow 27: THE MAURITIUS COMMERCIAL BANK LTD          SWITZERLAND
+Unnamed: 1                           Switzerland Franc
+Unnamed: 2                                         CHF
+Unnamed: 3                                           1
+Unnamed: 4                                       49.25
+Unnamed: 5                                       48.88
+Unnamed: 6                                       48.76
+Unnamed: 7                                       51.86
+Unnamed: 8                                       51.86
+Unnamed: 9                                       51.86
+Unnamed: 10                          12-Dec-2023 09:15
+Name: 26, dtype: objectRow 28: THE MAURITIUS COMMERCIAL BANK LTD              TANZANIA
+Unnamed: 1                           Tanzania Shillings
+Unnamed: 2                                          TZS
+Unnamed: 3                                          100
+Unnamed: 4                                         1.74
+Unnamed: 5                                         1.69
+Unnamed: 6                                            0
+Unnamed: 7                                         1.83
+Unnamed: 8                                         1.83
+Unnamed: 9                                            0
+Unnamed: 10                           12-Dec-2023 09:15
+Name: 27, dtype: objectRow 29: THE MAURITIUS COMMERCIAL BANK LTD    UNITED ARAB EMIRATES
+Unnamed: 1                                     UAE Dirham
+Unnamed: 2                                            AED
+Unnamed: 3                                              1
+Unnamed: 4                                          11.76
+Unnamed: 5                                          11.61
+Unnamed: 6                                          10.89
+Unnamed: 7                                          12.31
+Unnamed: 8                                          12.31
+Unnamed: 9                                          12.31
+Unnamed: 10                             12-Dec-2023 09:15
+Name: 28, dtype: objectRow 30: THE MAURITIUS COMMERCIAL BANK LTD                      USA
+Unnamed: 1                           United States Dollars
+Unnamed: 2                                             USD
+Unnamed: 3                                               1
+Unnamed: 4                                           43.63
+Unnamed: 5                                               0
+Unnamed: 6                                           43.43
+Unnamed: 7                                           44.53
+Unnamed: 8                                           44.53
+Unnamed: 9                                          44.975
+Unnamed: 10                              12-Dec-2023 09:15
+Name: 29, dtype: objectRow 31: THE MAURITIUS COMMERCIAL BANK LTD    NaN
+Unnamed: 1                           NaN
+Unnamed: 2                           NaN
+Unnamed: 3                           NaN
+Unnamed: 4                           NaN
+Unnamed: 5                           NaN
+Unnamed: 6                           NaN
+Unnamed: 7                           NaN
+Unnamed: 8                           NaN
+Unnamed: 9                           NaN
+Unnamed: 10                          NaN
+Name: 30, dtype: objectRow 32: THE MAURITIUS COMMERCIAL BANK LTD    ND: NO DEALINGS
+Unnamed: 1                                       NaN
+Unnamed: 2                                       NaN
+Unnamed: 3                                       NaN
+Unnamed: 4                                       NaN
+Unnamed: 5                                       NaN
+Unnamed: 6                                       NaN
+Unnamed: 7                                       NaN
+Unnamed: 8                                       NaN
+Unnamed: 9                                       NaN
+Unnamed: 10                                      NaN
+Name: 31, dtype: objectRow 33: THE MAURITIUS COMMERCIAL BANK LTD    NaN
+Unnamed: 1                           NaN
+Unnamed: 2                           NaN
+Unnamed: 3                           NaN
+Unnamed: 4                           NaN
+Unnamed: 5                           NaN
+Unnamed: 6                           NaN
+Unnamed: 7                           NaN
+Unnamed: 8                           NaN
+Unnamed: 9                           NaN
+Unnamed: 10                          NaN
+Name: 32, dtype: objectRow 34: THE MAURITIUS COMMERCIAL BANK LTD    DISCLAIMER: All rates are indicative only. The...
+Unnamed: 1                                                                         NaN
+Unnamed: 2                                                                         NaN
+Unnamed: 3                                                                         NaN
+Unnamed: 4                                                                         NaN
+Unnamed: 5                                                                         NaN
+Unnamed: 6                                                                         NaN
+Unnamed: 7                                                                         NaN
+Unnamed: 8                                                                         NaN
+Unnamed: 9                                                                         NaN
+Unnamed: 10                                                                        NaN
+Name: 33, dtype: object
