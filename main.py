@@ -10,7 +10,7 @@ app = Flask(__name__)
 #     data = scraper.scrape(date)
 #     return data
 
-@app.route("", methods = ["GET"])
+@app.route("/", methods = ["GET"])
 def home():
     return "Hello, world"
 
