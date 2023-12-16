@@ -38,7 +38,8 @@ def scrape(date):
 			# # options.add_argument("--disable-extensions")
 			# options.add_argument("--disable-gpu")
 			# options.add_argument('--ignore-certificate-errors')
-		driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options) 
+		cService = webdriver.ChromeService(executable_path= os.getcwd()+"/chromedriver")
+		driver = webdriver.Chrome(service=cService, options=options) 
 		
 		driver.get(url) 
 		driver.implicitly_wait(2)
@@ -78,7 +79,8 @@ def scrape(date):
 		return returnJSON
 
 	except Exception as e:
-		returnJSON["error"] = e
+		print(e)
+		returnJSON["error"] = "Selenium session error"
 		returnJSON["success"] = False
 		print(returnJSON)
 		return returnJSON
