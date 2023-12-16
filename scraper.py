@@ -71,7 +71,7 @@ def scrape(date):
 		end_date.send_keys(Keys.LEFT)
 		end_date.send_keys(parsed_date)
 
-		driver.implicitly_wait(10)
+		driver.implicitly_wait(100)
 		download_button = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div/div[5]/div[3]/div/div/div/button")
 		download_button.click()
 
