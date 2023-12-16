@@ -33,9 +33,9 @@ def scrape(date):
 		options.add_experimental_option("prefs",prefs)
 		options.add_argument("--no-sandbox")
 		options.add_argument('--remote-debugging-pipe')
-		options.add_argument("window-size=1280,720")
+		#options.add_argument("window-size=1280,720")
 			# # options.add_argument('--no-sandbox')
-		#options.add_argument('--headless')
+		options.add_argument('--headless')
 
 			# # options.add_argument("--disable-setuid-sandbox")
 			# # # other options
@@ -72,7 +72,7 @@ def scrape(date):
 		end_date.send_keys(parsed_date)
 
 		driver.implicitly_wait(10)
-		download_button = driver.find_element(By.ID, "buttonId")
+		download_button = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div/div[5]/div[3]/div/div/div/button")
 		download_button.click()
 
 		time.sleep(5)
