@@ -37,11 +37,11 @@ def scrape(date):
 		# # options.add_argument("--disable-extensions")
 		# options.add_argument("--disable-gpu")
 		# options.add_argument('--ignore-certificate-errors')
-		# driver = webdriver.Chrome(service=ChromeService( 
-		# 	ChromeDriverManager().install()), options=options) 
+		driver = webdriver.Chrome(service=ChromeService( 
+			ChromeDriverManager().install()), options=options) 
 		
-		# driver.get(url) 
-		# driver.implicitly_wait(2)
+		driver.get(url) 
+		driver.implicitly_wait(2)
 		####OLD####
 
 
@@ -55,12 +55,12 @@ def scrape(date):
 		# options.add_argument('--disable-gpu')
 		# options.add_argument('--user-agent={}'.format(random.choice(list(self.user_agents))))
 
-		driver = webdriver.Chrome(options=options)
-		driver.set_page_load_timeout(90)
+		#driver = webdriver.Chrome(options=options)
+		#driver.set_page_load_timeout(90)
 
 		# Load the URL and get the page source
-		driver.implicitly_wait(6)
-		driver.get(url)
+		#driver.implicitly_wait(6)
+		##driver.get(url)
 		###NEW###
 
 		currency_selector = driver.find_element(By.ID, "forexCurrency")
