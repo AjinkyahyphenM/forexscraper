@@ -27,10 +27,10 @@ def scrape(date):
 
 	try:
 		#####OLD####
-		try:
-			options = webdriver.ChromeOptions()
-			prefs = {"download.default_directory" : os.getcwd()+"/downloads"}
-			options.add_experimental_option("prefs",prefs)
+		
+		options = webdriver.ChromeOptions()
+		prefs = {"download.default_directory" : os.getcwd()+"/downloads"}
+		options.add_experimental_option("prefs",prefs)
 			# # options.add_argument('--no-sandbox')
 			# #options.add_argument('--headless')
 			# # options.add_argument("--disable-setuid-sandbox")
@@ -38,10 +38,7 @@ def scrape(date):
 			# # options.add_argument("--disable-extensions")
 			# options.add_argument("--disable-gpu")
 			# options.add_argument('--ignore-certificate-errors')
-			driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options) 
-		except:
-			returnJSON["error1"] = "Error in instantating the driver"
-			returnJSON["success"] = False
+		driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options) 
 		
 		driver.get(url) 
 		driver.implicitly_wait(2)
@@ -80,8 +77,8 @@ def scrape(date):
 		print(returnJSON)
 		return returnJSON
 
-	except:
-		returnJSON["error"] = "Error in scraping the data"
+	except Exception as e:
+		returnJSON["error"] = e
 		returnJSON["success"] = False
 		print(returnJSON)
 		return returnJSON
