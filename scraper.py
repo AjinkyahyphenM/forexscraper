@@ -27,9 +27,9 @@ def scrape(date):
 
 	try:
 		#####OLD####
-		# options = webdriver.ChromeOptions()
-		# prefs = {"download.default_directory" : os.getcwd()+"/downloads"}
-		# options.add_experimental_option("prefs",prefs)
+		options = webdriver.ChromeOptions()
+		prefs = {"download.default_directory" : os.getcwd()+"/downloads"}
+		options.add_experimental_option("prefs",prefs)
 		# # options.add_argument('--no-sandbox')
 		# #options.add_argument('--headless')
 		# # options.add_argument("--disable-setuid-sandbox")
@@ -46,14 +46,14 @@ def scrape(date):
 
 
 		####NEW###
-		options = webdriver.ChromeOptions()
-		options.add_argument('--no-sandbox')
-		options.add_argument('--headless')
-		options.add_argument('--ignore-certificate-errors')
-		options.add_argument('--disable-dev-shm-usage')
-		options.add_argument('--disable-extensions')
-		options.add_argument('--disable-gpu')
-		options.add_argument('--user-agent={}'.format(random.choice(list(self.user_agents))))
+		# options = webdriver.ChromeOptions()
+		# options.add_argument('--no-sandbox')
+		# options.add_argument('--headless')
+		# options.add_argument('--ignore-certificate-errors')
+		# options.add_argument('--disable-dev-shm-usage')
+		# options.add_argument('--disable-extensions')
+		# options.add_argument('--disable-gpu')
+		# options.add_argument('--user-agent={}'.format(random.choice(list(self.user_agents))))
 
 		driver = webdriver.Chrome(options=options)
 		driver.set_page_load_timeout(90)
