@@ -7,6 +7,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import parser
 #2023-01-21
 
@@ -72,8 +74,9 @@ def scrape(date):
 		end_date.send_keys(parsed_date)
 
 		driver.implicitly_wait(100)
-		download_button = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div/div[5]/div[3]/div/div/div/button")
-		download_button.click()
+		# download_button = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div/div[5]/div[3]/div/div/div/button")
+		# download_button.click()
+		WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/div/div/div/div/div/div[5]/div[3]/div/div/div/button"))).click()
 
 		time.sleep(5)
 
