@@ -67,7 +67,8 @@ def scrape(date):
 		print(returnJSON)
 		return returnJSON
 
-	except:
+	except Exception as e:
+		print(e)
 		returnJSON["error"] = "Error in scraping the data"
 		returnJSON["success"] = False
 		print(returnJSON)
