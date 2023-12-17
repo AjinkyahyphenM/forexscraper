@@ -28,8 +28,8 @@ def scrape(date):
 		options = webdriver.ChromeOptions()
 		prefs = {"download.default_directory" : os.getcwd()+"/downloads"}
 		options.add_experimental_option("prefs",prefs)
-		options.addArguments("--no-sandbox")
-		options.addArguments("--disable-dev-shm-usage")
+		options.add_argument("--no-sandbox")
+		options.add_argument("--disable-dev-shm-usage")
 		driver = webdriver.Chrome(service=ChromeService( 
 			ChromeDriverManager().install()), options=options) 
 		
