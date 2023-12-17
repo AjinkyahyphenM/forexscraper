@@ -62,10 +62,11 @@ def scrape(date):
 		end_date.send_keys(parsed_date)
 
 		title = driver.find_element(By.XPATH, '//*[@id="Main_C001_Col00"]/div/div/div/div[2]/div/h1')
+		print(title.text)
 
 		driver.implicitly_wait(10)
 		# download_button = driver.find_element(By.ID, "buttonId")
-		download_button = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "button[label = 'Search']")))
+		download_button = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "buttonId")))
 		download_button.click()
 
 		time.sleep(5)
