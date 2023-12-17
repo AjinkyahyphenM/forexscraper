@@ -68,6 +68,9 @@ def scrape(date):
 		# download_button = driver.find_element(By.ID, "buttonId")
 		download_button = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "buttonId")))
 		download_button.click()
+		#WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#divmpscreen2 > div.row > div:nth-child(1) > div > div:nth-child(1) > input"))).send_keys('COS')
+		#Select(WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//label[text()='By Parliament']//following-sibling::select[1]")))).select_by_value('13: 13')
+		driver.execute_script("arguments[0].click();", WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="buttonId"]'))))
 
 		time.sleep(5)
 
